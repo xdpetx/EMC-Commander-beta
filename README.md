@@ -182,7 +182,7 @@ This log file is saved at `/tmp/EMC_launch.log`.
 ```
 
   view [EMC_launch.log](logfiles/EMC_launch.log)  
-  report [issues](https://github.com/xdpetx/emc-commander/issues) or give [feedback](https://github.com/xdpetx/EMC-Commander-trial/discussions/categories/general)    
+  report [issues](https://github.com/xdpetx/EMC-Commander-beta/issues) or give [feedback](https://github.com/xdpetx/EMC-Commander-beta/discussions/categories/feedback)    
 
 </details>
 
