@@ -1,0 +1,66 @@
+***********************************************************************
+*                    EMC - INSTALLATION GUIDE                         *
+***********************************************************************
+
+1. EXTRACT THE ARCHIVE
+   Open your terminal and run these commands to extract the files:
+
+   cd ~/Downloads
+   tar -xvf EMC_INSTALL_standalone.tar.gz -C ~
+
+2. RUN INSTALLATION
+   Start the base installer script:
+
+   ~/EMC_install/EMC_standalone_base_installer.sh 
+
+   The installer guides you through four stages:
+   - Step 1 (Preinstall)    : Prepare the installation media (ISO/USB).
+   - Step 2 (Install Debian): Install Debian minimal System.
+   - Step 3 (Install EMC)   : System deployment and package installation.
+   - Step 4 (Postinstall)   : Final setup and reboot.
+
+   Use the 'help' command within each menu for further guidance!
+
+See Documentation on github: https://github.com/xdpetx/EMC-Commander-beta
+
+-----------------------------------------------------------------------
+-                      AFTER INSTALLATION ...                         -
+-----------------------------------------------------------------------
+
+EMC Commander start instructions:
+
+   1. After reboot, boot the partition where EMC Commander is installed.
+   2. After login, start EMC Commander with: startx
+   3. When EMC has started you will see a Mainbar info notify for first instructions.
+   4. To install software open EMC Configuration Toolbar how described in Mainbar info.
+
+The launchers are pre-configured. If an application is missing, you 
+will receive a notification at startup. You can install missing apps 
+via the 'App Installer' (accessible via the mainbar info window).
+
+Use EMC Configuration Toolbar to edit configuration files.
+- Scroll UP/DOWN on an icon in launchbar to see its tooltip.
+- dbl-click space in the mainbar to open EMC Configuration Toolbar.
+
+CONFIGURATION FILES:
+- Launchbars, Tooltips & Icons: $HOME/.config/polybar/usr/
+- Workspace Icons             : $HOME/.config/i3/usr/config_workspaces
+- Autostart/Commands          : $HOME/.config/i3/usr/config_usercommands
+
+MONITOR CONFIG
+-actual resolution            : $HOME/.config/polybar/usr/monitor.ini
+-resolution templates         : $HOME/.config/polybar/usr/monitor
+
+LOG FILES:
+- Installer logs and system reports are stored in: $HOME/.config/polybar/log
+
+See Documentation on github: https://github.com/xdpetx/EMC-Commander-beta/blob/main/README_config.md
+
+-----------------------------------------------------------------------
+-                      HARDWARE NOTES                                 -
+-----------------------------------------------------------------------
+
+WLAN-Modul:
+The Polybar WLAN module is included in the configuration but has not been 
+tested. As I do not have a wireless setup, I cannot guarantee functionality 
+or provide support for this specific module.

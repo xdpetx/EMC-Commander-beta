@@ -1,0 +1,68 @@
+### SYSTEM REPORT Tue, 28 Jul 2026 08:54:07 +0200 ###
+
+1. SYSTEM
+
+   Internet connected: true
+   Download speed    : 2.69 MB/s
+
+   OS                : Debian GNU/Linux 13 (trixie) (debian)
+   Desktop           : UNKNOWN_DESKTOP
+   Desktop sessions  : 
+   Minimal system    : true
+
+   System Locale     : de_DE.UTF-8
+
+   Available version i3     : 4.24-1
+   Available version polybar: 3.7.2-1
+
+2. DISK SPACE
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        48G  1.2G   47G   3% /
+/dev/sda2        48G  7.2M   48G   1% /home
+/dev/sda2        48G  7.2M   48G   1% /home
+
+3. INSTALLED PACKAGES: 306
+
+4. MEMORY USAGE
+
+               total        used        free      shared     buffers       cache   available
+Mem:           7.6Gi       761Mi       6.7Gi       369Mi        21Mi       741Mi       6.9Gi
+Low:           7.6Gi       931Mi       6.7Gi
+High:             0B          0B          0B
+Swap:          8.2Gi          0B       8.2Gi
+Total:          15Gi       761Mi        14Gi
+
+5. ACTIVE PROCESSES 
+
+%CPU %MEM COMMAND
+ 0.1  0.1 systemd
+ 0.0  0.2 systemd-journal
+ 0.0  0.1 systemd
+ 0.0  0.0 kworker/u16:1-kvfree_rcu_reclaim
+ 0.0  0.1 systemd-udevd
+ 0.0  0.0 migration/1
+ 0.0  0.0 migration/2
+ 0.0  0.0 migration/3
+ 0.0  0.0 kworker/3:0-events
+ 0.0  0.0 kworker/2:2-events
+
+6. APT CACHE TIME 
+
+real: 0,039
+user: 0,031
+sys : 0,008
+
+7. GUI LIBRARIES (BLOAT CHECK)
+
+GTK:
+
+none
+
+QT:
+
+none
+
+KDE:
+
+none

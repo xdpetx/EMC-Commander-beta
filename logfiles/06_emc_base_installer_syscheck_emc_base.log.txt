@@ -1,0 +1,77 @@
+### SYSTEM REPORT Tue, 28 Jul 2026 08:57:45 +0200 ###
+
+1. SYSTEM
+
+   Internet connected: true
+   Download speed    : 2.69 MB/s
+
+   OS                : Debian GNU/Linux 13 (trixie) (debian)
+   Desktop           : i3_EMC
+   Desktop sessions  : i3_EMC.desktop 
+   Minimal system    : false
+
+   System Locale     : de_DE.UTF-8
+
+   i3      found - i3 version 4.24 (2024-11-06)
+   polybar found - polybar 3.7.2
+
+   EMC already installed
+
+2. DISK SPACE
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        48G  2.5G   45G   6% /
+/dev/sda2        48G   11M   48G   1% /home
+/dev/sda2        48G   11M   48G   1% /home
+
+3. INSTALLED PACKAGES: 965
+
+4. MEMORY USAGE
+
+               total        used        free      shared     buffers       cache   available
+Mem:           7.6Gi       983Mi       4.8Gi       370Mi       254Mi       2.3Gi       6.7Gi
+Low:           7.6Gi       2.8Gi       4.8Gi
+High:             0B          0B          0B
+Swap:          8.2Gi          0B       8.2Gi
+Total:          15Gi       983Mi        12Gi
+
+5. ACTIVE PROCESSES 
+
+%CPU %MEM COMMAND
+ 0.6  0.1 systemd
+ 0.2  0.1 udisksd
+ 0.2  0.0 jbd2/sda1-8
+ 0.1  0.1 cupsd
+ 0.1  0.1 polkitd
+ 0.0  0.0 kworker/2:1H-kblockd
+ 0.0  0.0 dbus-daemon
+ 0.0  0.2 NetworkManager
+ 0.0  0.0 kworker/u16:0-writeback
+ 0.0  0.0 kworker/u16:1-events_unbound
+
+6. APT CACHE TIME 
+
+real: 0,055
+user: 0,033
+sys : 0,022
+
+7. GUI LIBRARIES (BLOAT CHECK)
+
+GTK:
+
+ii  libgtk-3-0t64:amd64                  3.24.49-3                            amd64        GTK graphical user interface library
+ii  libgtk-3-bin                         3.24.49-3                            amd64        programs for the GTK graphical user interface library
+ii  libgtk-3-common                      3.24.49-3                            all          common files for the GTK graphical user interface library
+ii  libgtk-4-1:amd64                     4.18.6+ds-2                          amd64        GTK graphical user interface library
+ii  libgtk-4-bin                         4.18.6+ds-2                          amd64        programs for the GTK graphical user interface library
+ii  libgtk-4-common                      4.18.6+ds-2                          all          common files for the GTK graphical user interface library
+ii  libgtk-4-media-gstreamer             4.18.6+ds-2                          amd64        GStreamer media backend for the GTK graphical user interface library
+ii  libgtkmm-4.0-0:amd64                 4.18.0-1                             amd64        C++ wrappers for GTK4 (shared libraries)
+
+QT:
+
+none
+
+KDE:
+
+none

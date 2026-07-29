@@ -1,0 +1,982 @@
+
+### EMC INSTALLATION BEGIN Tue, 28 Jul 2026 08:54:07 +0200 ###
+
+
+System:
+
+   OS               : Debian GNU/Linux 13 (trixie) ()
+   Desktop          : UNKNOWN_DESKTOP
+   Desktop sessions : 
+   Standalone EMC   : false
+   Desktop    EMC   : false
+   Minimal system   : true
+   EMC installed    : false
+   EMC running      : false
+
+Install packages :
+
+   see installation log after INSTALLATION END
+
+install_config:
+
+   Extracting EMC Configuration from /home/hklein/EMC_install/EMC_CONFIG.tar.gz to /home/hklein/.config/...
+
+./
+./.config/
+./.config/pcmanfm/
+./.config/pcmanfm/default/
+./.config/pcmanfm/default/pcmanfm.conf
+./.config/polybar/
+./.config/polybar/.EMC_install_flag
+./.config/polybar/bar_main.ini
+./.config/polybar/config.ini
+./.config/polybar/internal_modules.ini
+./.config/polybar/launch.sh
+./.config/polybar/launchbar_app_modules.ini
+./.config/polybar/launchbar_workspace_modules.ini
+./.config/polybar/main_modules.ini
+./.config/polybar/bar_launch.ini
+./.config/polybar/install/
+./.config/polybar/install/EMC_standalone_app_installer.sh
+./.config/polybar/install/README_BACKUP
+./.config/polybar/install/emc/
+./.config/polybar/install/emc/EMC_hicolor_icons.tar.gz
+./.config/polybar/install/emc/EMC_FONTS.tar.gz
+./.config/polybar/install/emc/plocate-updatedb_emc.timer
+./.config/polybar/install/emc/fasttrack-archive-keyring_EMC.gpg
+./.config/polybar/install/emc/sources_EMC.list
+./.config/polybar/install/emc/session_spacefm_EMC
+./.config/polybar/install/emc/spacefm_conf_EMC
+./.config/polybar/install/emc/i3_EMC.desktop
+./.config/polybar/install/emc/xinitrc_EMC
+./.config/polybar/install/procedures/
+./.config/polybar/install/procedures/app_installer/
+./.config/polybar/install/procedures/app_installer/proc_app_installer_standalone_check.sh
+./.config/polybar/install/procedures/app_installer/proc_app_installer_standalone_install.sh
+./.config/polybar/install/procedures/app_installer/proc_app_installer_standalone_dlg.sh
+./.config/polybar/install/procedures/app_installer/app_button.conf
+./.config/polybar/install/procedures/app_installer/proc_app_installer_standalone_maintenance.sh
+./.config/polybar/install/procedures/app_installer/proc_app_installer_standalone_txt.sh
+./.config/polybar/install/procedures/app_installer/proc_app_installer_standalone_dlg_run.sh
+./.config/polybar/install/bash_history_template
+./.config/polybar/install/README_STANDALONE_INSTALL
+./.config/polybar/bin/
+./.config/polybar/bin/emc_set_active_kbd_layout
+./.config/polybar/bin/emc_get_active_kbd_layout
+./.config/polybar/bin/emc_kbd_switcher
+./.config/polybar/i3/
+./.config/polybar/i3/i3_controls.ini
+./.config/polybar/i3/script/
+./.config/polybar/i3/script/i3_open_file.sh
+./.config/polybar/i3/script/i3_open_ws.sh
+./.config/polybar/i3/script/i3_info_launchbar.sh
+./.config/polybar/i3/script/i3_info_workspace.sh
+./.config/polybar/i3/script/i3_info_scratch.sh
+./.config/polybar/i3/script/i3_info_mainbar.sh
+./.config/polybar/i3/script/i3_event_exit.sh
+./.config/polybar/i3/script/i3_scratch_counter.sh
+./.config/polybar/i3/script/i3_event_scratch.sh
+./.config/polybar/i3/script/i3_info_window.sh
+./.config/polybar/i3/script/i3_event_move.sh
+./.config/polybar/i3/script/i3_info_setup_application.sh
+./.config/polybar/i3/script/i3_move_to.sh
+./.config/polybar/i3/script/i3_scroll_window.sh
+./.config/polybar/i3/script/i3_event_window.sh
+./.config/polybar/i3/script/i3_event_workspace.sh
+./.config/polybar/usr/
+./.config/polybar/usr/tooltips.ini
+./.config/polybar/usr/icons.ini
+./.config/polybar/usr/monitor.ini
+./.config/polybar/usr/script/
+./.config/polybar/usr/script/launch_fm_music.sh
+./.config/polybar/usr/script/launch_ws_music02.sh
+./.config/polybar/usr/script/launch_fm_office.sh
+./.config/polybar/usr/script/launch_fm_home.sh
+./.config/polybar/usr/script/launch_fm_emc.sh
+./.config/polybar/usr/applications.ini
+./.config/polybar/usr/monitor/
+./.config/polybar/usr/monitor/monitor_1680x1050.ini
+./.config/polybar/usr/monitor/monitor_1280x720.ini
+./.config/polybar/usr/monitor/monitor_1440x900.ini
+./.config/polybar/usr/monitor/monitor_1920x1080.ini
+./.config/polybar/usr/monitor/monitor_1024x768.ini
+./.config/polybar/usr/monitor/monitor_2560x1440.ini
+./.config/polybar/usr/monitor/monitor_1280x1024.ini
+./.config/polybar/usr/monitor/monitor_HOWTO
+./.config/polybar/usr/monitor/monitor_1600x900.ini
+./.config/polybar/usr/monitor/monitor_1366x768.ini
+./.config/polybar/usr/user_cleanup
+./.config/polybar/script/
+./.config/polybar/script/emc_toolbar.sh
+./.config/polybar/script/tooltip.sh
+./.config/polybar/script/test_keyboard.sh
+./.config/polybar/script/show_launchbar.sh
+./.config/polybar/script/setup_fm_applications.sh
+./.config/polybar/script/set_resolution.sh
+./.config/polybar/script/net.sh
+./.config/polybar/script/info_wlan.sh
+./.config/polybar/script/info_pulseaudio.sh
+./.config/polybar/script/info_memory.sh
+./.config/polybar/script/info_keyboard.sh
+./.config/polybar/script/info_filesys.sh
+./.config/polybar/script/info_eth.sh
+./.config/polybar/script/info_display.sh
+./.config/polybar/script/info_date.sh
+./.config/polybar/script/info_cpu.sh
+./.config/polybar/script/info_box.sh
+./.config/polybar/script/hwinfo.sh
+./.config/polybar/script/hide_launchbar.sh
+./.config/polybar/script/get_ws_icons.sh
+./.config/polybar/script/get_module_clicks.sh
+./.config/polybar/script/event_screenshot.sh
+./.config/polybar/script/event_pulseaudio.sh
+./.config/polybar/script/event_memory.sh
+./.config/polybar/script/event_eth.sh
+./.config/polybar/script/event_launchbar.sh
+./.config/polybar/script/event_keyboard.sh
+./.config/polybar/script/event_filesys.sh
+./.config/polybar/script/event_wlan.sh
+./.config/polybar/script/event_display.sh
+./.config/polybar/script/event_date.sh
+./.config/polybar/script/event_cpu.sh
+./.config/polybar/script/chk_download_speed.sh
+./.config/polybar/script/change_resolution.sh
+./.config/polybar/script/send_feedback.sh
+./.config/dunst/
+./.config/dunst/dunstrc
+./.config/i3/
+./.config/i3/usr/
+./.config/i3/usr/config_usercommands
+./.config/i3/usr/i3_Reference_Card.pdf
+./.config/i3/usr/config_workspaces
+./.config/i3/config
+./.config/i3/config_keybindings
+./.config/i3/config_emc_colors
+./.config/i3/config_emc_bindings
+./.config/i3/config_emc_windows
+
+   Configuration files successfully extracted.
+
+   install config done
+
+install_fonts:
+
+
+   FONTS to install: SymbolsNerdFontMono-Regular.ttf NotoSans-Regular.ttf DejaVuSansMono.ttf
+
+   Fonts installed and cache updated.
+
+
+   install fonts done
+
+install_icons:
+
+
+   Updating hicolor icon cache...
+gtk-update-icon-cache: Cache file created successfully.
+
+   install icons done
+
+setup_desktop:
+
+
+   setup Standalone EMC done
+
+setup_keyboard:
+
+   setup keyboard done
+
+finish_setup:
+
+   Setup extended sources for apt ...
+
+   orgininal sources list backed up in /home/hklein/EMC_Backup/sources.list.bak
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://ftp.halifax.rwth-aachen.de/debian trixie InRelease
+Get:2 http://security.debian.org/debian-security trixie-security InRelease [43.4 kB]
+Hit:3 http://ftp.halifax.rwth-aachen.de/debian trixie-updates InRelease
+Get:4 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free Sources [75.9 kB]
+Get:5 http://ftp.halifax.rwth-aachen.de/debian trixie/contrib Sources [52.3 kB]
+Get:7 http://ftp.halifax.rwth-aachen.de/debian trixie/main all Contents (deb) [37.7 MB]
+Get:6 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack InRelease [12.9 kB]
+Get:8 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack/main amd64 Packages [3156 B]
+Get:9 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack/main Translation-en [2660 B]
+Get:10 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack/contrib amd64 Packages [4928 B]
+Get:11 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack/contrib Translation-en [2036 B]
+Get:12 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack/non-free amd64 Packages [504 B]
+Get:13 https://fasttrack.debian.net/debian-fasttrack trixie-fasttrack/non-free Translation-en [408 B]
+Get:14 http://ftp.halifax.rwth-aachen.de/debian trixie/main amd64 Contents (deb) [12.6 MB]
+Get:15 http://ftp.halifax.rwth-aachen.de/debian trixie/contrib amd64 Packages [53.8 kB]
+Get:16 http://ftp.halifax.rwth-aachen.de/debian trixie/contrib Translation-en [49.6 kB]
+Get:17 http://ftp.halifax.rwth-aachen.de/debian trixie/contrib amd64 Contents (deb) [188 kB]
+Get:18 http://ftp.halifax.rwth-aachen.de/debian trixie/contrib all Contents (deb) [134 kB]
+Get:19 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free-firmware amd64 Contents (deb) [1149 B]
+Get:20 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free-firmware all Contents (deb) [27.0 kB]
+Get:21 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free amd64 Packages [100 kB]
+Get:22 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free Translation-en [67.1 kB]
+Get:23 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free amd64 Contents (deb) [78.2 kB]
+Get:24 http://ftp.halifax.rwth-aachen.de/debian trixie/non-free all Contents (deb) [831 kB]
+Get:25 http://ftp.halifax.rwth-aachen.de/debian trixie-updates/main amd64 Contents (deb) [9760 B]
+Get:26 http://ftp.halifax.rwth-aachen.de/debian trixie-updates/main all Contents (deb) [25.5 kB]
+Fetched 52.1 MB in 22s (2389 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+16 packages can be upgraded. Run 'apt list --upgradable' to see them.
+   Initialize plocate search database ...
+
+   Enable network interface ...
+
+
+   Setup finished successfully.
+
+### EMC INSTALLATION END   Tue, 28 Jul 2026 08:57:45 +0200 ###
+
+
+########## INSTALLATION LOG ##########
+
+
+########## INSTALLATION LOG OVERVIEW ##########
+
+### pkg apt-rdepends  ###
+
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/82.5 kB of archives.
+After this operation, 266 kB of additional disk space will be used.
+
+### pkg apt-file  ###
+
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/117 kB of archives.
+After this operation, 335 kB of additional disk space will be used.
+The system-wide cache is empty. You may want to run 'apt-file update'
+as root to update the cache.
+
+### pkg apt-show-versions  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/27.7 kB of archives.
+After this operation, 97.3 kB of additional disk space will be used.
+** initializing cache. This may take a while **
+apt-show-versions.service is a disabled or a static unit, not starting it.
+
+### pkg debsecan  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/33.2 kB of archives.
+After this operation, 112 kB of additional disk space will be used.
+
+### pkg xserver-xorg-core  ###
+
+0 upgraded, 50 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/54.2 MB of archives.
+After this operation, 221 MB of additional disk space will be used.
+
+### pkg xserver-xorg  ###
+
+0 upgraded, 23 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/5825 kB of archives.
+After this operation, 23.3 MB of additional disk space will be used.
+
+### pkg xinit  ###
+
+0 upgraded, 11 newly installed, 0 to remove and 16 not upgraded.
+Need to get 910 kB/3119 kB of archives.
+After this operation, 8126 kB of additional disk space will be used.
+Fetched 910 kB in 1s (1545 kB/s)
+
+### pkg x11-xserver-utils  ###
+
+0 upgraded, 11 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/12.8 MB of archives.
+After this operation, 40.0 MB of additional disk space will be used.
+
+### pkg bluez  ###
+
+0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/2064 kB of archives.
+After this operation, 7242 kB of additional disk space will be used.
+
+### pkg pulseaudio-module-bluetooth  ###
+
+0 upgraded, 294 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/154 MB of archives.
+After this operation, 558 MB of additional disk space will be used.
+Regenerating fonts cache... done.
+Setcap worked! gst-ptp-helper is not suid!
+Creating group 'polkitd' with GID 989.
+
+Creating user 'polkitd' (User for polkitd) with UID 989 and GID 989.
+
+
+### pkg cups  ###
+
+0 upgraded, 32 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/10.5 MB of archives.
+After this operation, 38.8 MB of additional disk space will be used.
+
+### pkg cups-client  ###
+
+0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/223 kB of archives.
+After this operation, 746 kB of additional disk space will be used.
+
+### pkg printer-driver-all  ###
+
+0 upgraded, 43 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/13.1 MB of archives.
+After this operation, 42.8 MB of additional disk space will be used.
+
+### pkg foomatic-db-compressed-ppds  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/91.7 kB of archives.
+After this operation, 290 kB of additional disk space will be used.
+
+### pkg xsel  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/19.9 kB of archives.
+After this operation, 56.3 kB of additional disk space will be used.
+
+### pkg psmisc  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/267 kB of archives.
+After this operation, 973 kB of additional disk space will be used.
+
+### pkg shared-mime-info  ###
+
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/138 kB of archives.
+After this operation, 856 kB of additional disk space will be used.
+
+### pkg pkexec  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/24.9 kB of archives.
+After this operation, 62.5 kB of additional disk space will be used.
+
+### pkg plocate  ###
+
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/171 kB of archives.
+After this operation, 710 kB of additional disk space will be used.
+plocate-updatedb.service is a disabled or a static unit, not starting it.
+
+### pkg network-manager  ###
+
+0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/2975 kB of archives.
+After this operation, 11.1 MB of additional disk space will be used.
+
+The following network interfaces were found in /etc/network/interfaces
+which means they are currently configured by ifupdown:
+- enp0s25
+If you want to manage those interfaces with NetworkManager instead
+remove their configuration from /etc/network/interfaces.
+
+
+### pkg alsa-utils  ###
+
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/1192 kB of archives.
+After this operation, 2885 kB of additional disk space will be used.
+alsa-restore.service is a disabled or a static unit, not starting it.
+alsa-state.service is a disabled or a static unit, not starting it.
+
+### pkg pavucontrol  ###
+
+0 upgraded, 17 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/12.4 MB of archives.
+After this operation, 54.0 MB of additional disk space will be used.
+
+### pkg i3-wm  ###
+
+0 upgraded, 27 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/8365 kB of archives.
+After this operation, 13.3 MB of additional disk space will be used.
+
+### pkg polybar  ###
+
+0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/1076 kB of archives.
+After this operation, 3894 kB of additional disk space will be used.
+
+### pkg dunst  ###
+
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/241 kB of archives.
+After this operation, 831 kB of additional disk space will be used.
+
+### pkg jq  ###
+
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/431 kB of archives.
+After this operation, 1265 kB of additional disk space will be used.
+
+### pkg lshw  ###
+
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/521 kB of archives.
+After this operation, 1738 kB of additional disk space will be used.
+
+### pkg maim  ###
+
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/314 kB of archives.
+After this operation, 1444 kB of additional disk space will be used.
+
+### pkg yad  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/168 kB of archives.
+After this operation, 568 kB of additional disk space will be used.
+
+### pkg fonts-noto-color-emoji  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/10.1 MB of archives.
+After this operation, 11.3 MB of additional disk space will be used.
+
+### pkg libnotify-bin  ###
+
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/12.8 kB of archives.
+After this operation, 46.1 kB of additional disk space will be used.
+
+### pkg bc  ###
+
+0 upgraded, 7 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/2097 kB of archives.
+After this operation, 6176 kB of additional disk space will be used.
+
+### pkg pcmanfm  ###
+
+0 upgraded, 96 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/23.3 MB of archives.
+After this operation, 93.2 MB of additional disk space will be used.
+update-initramfs: deferring update (trigger activated)
+usbmuxd.service is a disabled or a static unit, not starting it.
+update-initramfs: Generating /boot/initrd.img-6.12.90+deb13.1-amd64
+
+
+
+########## INSTALLATION LOG DETAILS  ##########
+
+### install_standalone_packages Tue, 28 Jul 2026 08:54:21 +0200
+
+### pkg apt-rdepends  ###
+
+The following NEW packages will be installed:
+  apt-rdepends libapt-pkg-perl
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/82.5 kB of archives.
+After this operation, 266 kB of additional disk space will be used.
+
+### pkg apt-file  ###
+
+The following NEW packages will be installed:
+  apt-file libregexp-assemble-perl
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/117 kB of archives.
+After this operation, 335 kB of additional disk space will be used.
+The system-wide cache is empty. You may want to run 'apt-file update'
+as root to update the cache.
+
+### pkg apt-show-versions  ###
+
+The following NEW packages will be installed:
+  apt-show-versions
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/27.7 kB of archives.
+After this operation, 97.3 kB of additional disk space will be used.
+** initializing cache. This may take a while **
+Created symlink '/etc/systemd/system/timers.target.wants/apt-show-versions.timer' -> '/usr/lib/systemd/system/apt-show-versions.timer'.
+
+apt-show-versions.service is a disabled or a static unit, not starting it.
+
+### pkg debsecan  ###
+
+The following NEW packages will be installed:
+  debsecan
+Preconfiguring packages ...
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/33.2 kB of archives.
+After this operation, 112 kB of additional disk space will be used.
+
+### pkg xserver-xorg-core  ###
+
+The following NEW packages will be installed:
+  libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm2 libegl-mesa0 libegl1
+  libepoxy0 libfontenc1 libgbm1 libgl1 libgl1-mesa-dri libglvnd0 libglx-mesa0
+  libglx0 libice6 libllvm19 libpciaccess0 libpixman-1-0 libsensors-config
+  libsensors5 libsm6 libunwind8 libvulkan1 libwayland-client0
+  libwayland-server0 libx11-xcb1 libxaw7 libxcb-dri3-0 libxcb-glx0
+  libxcb-present0 libxcb-randr0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0
+  libxcvt0 libxfont2 libxkbfile1 libxmu6 libxpm4 libxrandr2 libxrender1
+  libxshmfence1 libxt6t64 libxxf86vm1 libz3-4 mesa-libgallium x11-common
+  x11-xkb-utils xserver-common xserver-xorg-core
+0 upgraded, 50 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/54.2 MB of archives.
+After this operation, 221 MB of additional disk space will be used.
+
+### pkg xserver-xorg  ###
+
+The following NEW packages will be installed:
+  libatomic1 libdrm-nouveau2 libdrm-radeon1 libevdev2 libglib2.0-0t64
+  libgudev-1.0-0 libinput-bin libinput10 libmtdev1t64 libwacom-common
+  libwacom9 libxatracker2 xserver-xorg xserver-xorg-input-all
+  xserver-xorg-input-libinput xserver-xorg-video-all xserver-xorg-video-amdgpu
+  xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-nouveau
+  xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware
+0 upgraded, 23 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/5825 kB of archives.
+After this operation, 23.3 MB of additional disk space will be used.
+No schema files found: doing nothing.
+
+### pkg xinit  ###
+
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core fonts-dejavu-mono libfontconfig1
+  libutempter0 libxft2 libxinerama1 luit xbitmaps xinit xterm
+0 upgraded, 11 newly installed, 0 to remove and 16 not upgraded.
+Need to get 910 kB/3119 kB of archives.
+After this operation, 8126 kB of additional disk space will be used.
+Preconfiguring packages ...
+Fetched 910 kB in 1s (1545 kB/s)
+Adding 'diversion of /usr/bin/luit to /usr/bin/luit.x11-utils by luit'
+Adding 'diversion of /usr/share/man/man1/luit.1.gz to /usr/share/man/man1/luit.x11-utils.1.gz by luit'
+update-alternatives: using /usr/bin/xterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+update-alternatives: using /usr/bin/lxterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+
+### pkg x11-xserver-utils  ###
+
+The following NEW packages will be installed:
+  cpp cpp-14 cpp-14-x86-64-linux-gnu cpp-x86-64-linux-gnu libisl23 libmpc3
+  libmpfr6 libxcursor1 libxfixes3 libxi6 x11-xserver-utils
+0 upgraded, 11 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/12.8 MB of archives.
+After this operation, 40.0 MB of additional disk space will be used.
+
+### pkg bluez  ###
+
+The following NEW packages will be installed:
+  bluez libasound2-data libasound2t64 libdw1t64
+0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/2064 kB of archives.
+After this operation, 7242 kB of additional disk space will be used.
+Created symlink '/etc/systemd/user/default.target.wants/mpris-proxy.service' -> '/usr/lib/systemd/user/mpris-proxy.service'.
+
+Created symlink '/etc/systemd/system/dbus-org.bluez.service' -> '/usr/lib/systemd/system/bluetooth.service'.
+
+Created symlink '/etc/systemd/system/bluetooth.target.wants/bluetooth.service' -> '/usr/lib/systemd/system/bluetooth.service'.
+
+
+### pkg pulseaudio-module-bluetooth  ###
+
+The following NEW packages will be installed:
+  adwaita-icon-theme at-spi2-common at-spi2-core dconf-gsettings-backend
+  dconf-service fontconfig fonts-droid-fallback fonts-noto-mono
+  fonts-urw-base35 ghostscript glib-networking glib-networking-common
+  glib-networking-services gsettings-desktop-schemas gstreamer1.0-gl
+  gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good
+  gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme i965-va-driver
+  imagemagick-7-common intel-media-va-driver libaa1 libabsl20240722 libaom3
+  libasound2-plugins libass9 libasyncns0 libatk-bridge2.0-0t64 libatk1.0-0t64
+  libatspi2.0-0t64 libavahi-client3 libavahi-common-data libavahi-common3
+  libavc1394-0 libavcodec61 libavtp0 libavutil59 libbluetooth3 libbs2b0
+  libcaca0 libcairo-gobject2 libcairo2 libcdparanoia0 libchromaprint1
+  libcloudproviders0 libcodec2-1.2 libcolord2 libcpuinfo0 libcups2t64
+  libcurl3t64-gnutls libcurl4t64 libdatrie1 libdav1d7 libdc1394-25 libdca0
+  libdconf1 libde265-0 libdecor-0-0 libdecor-0-plugin-1-gtk libdeflate0
+  libdjvulibre-text libdjvulibre21 libdnnl3.6 libduktape207 libdv4t64
+  libdvdnav4 libdvdread8t64 libebur128-1 libfaad2 libfftw3-double3
+  libfftw3-single3 libflac14 libflite1 libfluidsynth3 libfreeaptx0 libfribidi0
+  libgcrypt20 libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common
+  libgme0 libgomp1 libgpg-error-l10n libgpg-error0 libgpm2 libgraphene-1.0-0
+  libgraphite2-3 libgs-common libgs10 libgs10-common libgsm1 libgssdp-1.6-0
+  libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0
+  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0t64 libgtk-3-bin
+  libgtk-3-common libgupnp-1.6-0 libgupnp-igd-1.6-0 libharfbuzz0b
+  libheif-plugin-aomenc libheif-plugin-dav1d libheif-plugin-libde265
+  libheif-plugin-x265 libheif1 libhwy1t64 libicu76 libidn12 libiec61883-0
+  libigdgmm12 libijs-0.35 libimath-3-1-29t64 libinstpatch-1.0-2
+  libjack-jackd2-0 libjbig0 libjbig2dec0 libjpeg62-turbo libjson-glib-1.0-0
+  libjson-glib-1.0-common libjxl0.11 libjxr-tools libjxr0t64 liblc3-1
+  liblcms2-2 libldacbt-enc2 libldap-common libldap2 liblerc4 liblilv-0-0
+  liblqr-1-0 liblrdf0 libltc11 libltdl7 libmagickcore-7.q16-10
+  libmagickcore-7.q16-10-extra libmagickwand-7.q16-10 libmjpegutils-2.1-0t64
+  libmodplug1 libmp3lame0 libmpcdec6 libmpeg2encpp-2.1-0t64 libmpg123-0t64
+  libmplex2-2.1-0t64 libmysofa1 libncurses6 libneon27t64 libnghttp3-9
+  libngtcp2-16 libngtcp2-crypto-gnutls8 libnice10 libnspr4 libnss3 libnuma1
+  libogg0 libonnx1t64 libonnxruntime1.21 libopenal-data libopenal1
+  libopencore-amrnb0 libopencore-amrwb0 libopenexr-3-1-30 libopenh264-8
+  libopenjp2-7 libopenmpt0t64 libopenni2-0 libopus0 liborc-0.4-0t64
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpaper-utils
+  libpaper2 libpipewire-0.3-0t64 libpipewire-0.3-common libpolkit-agent-1-0
+  libpolkit-gobject-1-0 libprotobuf32t64 libproxy1v5 libpthreadpool0 libpulse0
+  libpulsedsp libqrencode4 libraptor2-0 librav1e0.7 libraw1394-11 libraw23t64
+  libre2-11 librsvg2-2 librsvg2-common librtmp1 libsamplerate0 libsasl2-2
+  libsasl2-modules libsasl2-modules-db libsbc1 libsdl2-2.0-0 libserd-0-0
+  libsharpyuv0 libshine3 libshout3 libsnappy1v5 libsndfile1 libsord-0-0
+  libsoundtouch1 libsoup-3.0-0 libsoup-3.0-common libsoxr0 libspa-0.2-modules
+  libspandsp2t64 libspeex1 libspeexdsp1 libsratom-0-0 libsrt1.5-gnutls
+  libsrtp2-1 libssh2-1t64 libsvtav1enc2 libswresample5 libtag2 libtdb1
+  libthai-data libthai0 libtheora0 libtheoradec1 libtheoraenc1 libtiff6
+  libtwolame0 libunibreak6 libv4l-0t64 libv4lconvert0t64 libva-drm2
+  libva-x11-2 libva2 libvdpau-va-gl1 libvdpau1 libvisual-0.4-0 libvo-aacenc0
+  libvo-amrwbenc0 libvorbis0a libvorbisenc2 libvorbisfile3 libvpl2 libvpx9
+  libwavpack1 libwayland-cursor0 libwayland-egl1 libwebp7 libwebpdemux2
+  libwebpmux3 libwebrtc-audio-processing-1-3 libwildmidi2 libwmflite-0.2-7
+  libwrap0 libx264-164 libx265-215 libxcb-render0 libxcb-xkb1 libxcomposite1
+  libxdamage1 libxkbcommon-x11-0 libxkbcommon0 libxnnpack0.20241108 libxslt1.1
+  libxss1 libxtst6 libxv1 libxvidcore4 libyajl2 libzbar0t64 libzix-0-0
+  libzvbi-common libzvbi0t64 libzxing3 mesa-va-drivers mesa-vdpau-drivers
+  ocl-icd-libopencl1 polkitd poppler-data pulseaudio
+  pulseaudio-module-bluetooth pulseaudio-utils rtkit sgml-base
+  shared-mime-info timgm6mb-soundfont va-driver-all vdpau-driver-all
+  xfonts-encodings xfonts-utils xml-core
+Preconfiguring packages ...
+0 upgraded, 294 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/154 MB of archives.
+After this operation, 558 MB of additional disk space will be used.
+No diversion 'diversion of /usr/sbin/update-icon-caches to /usr/sbin/update-icon-caches.gtk2 by libgtk-3-bin', none removed.
+No diversion 'diversion of /usr/share/man/man8/update-icon-caches.8.gz to /usr/share/man/man8/update-icon-caches.gtk2.8.gz by libgtk-3-bin', none removed.
+Regenerating fonts cache... done.
+update-alternatives: using /usr/share/sounds/sf2/TimGM6mb.sf2 to provide /usr/share/sounds/sf2/default-GM.sf2 (default-GM.sf2) in auto mode
+update-alternatives: using /usr/share/sounds/sf2/TimGM6mb.sf2 to provide /usr/share/sounds/sf3/default-GM.sf3 (default-GM.sf3) in auto mode
+Setcap worked! gst-ptp-helper is not suid!
+update-alternatives: using /usr/share/icons/Adwaita/cursor.theme to provide /usr/share/icons/default/index.theme (x-cursor-theme) in auto mode
+Created symlink '/etc/systemd/user/default.target.wants/pulseaudio.service' -> '/usr/lib/systemd/user/pulseaudio.service'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/pulseaudio.socket' -> '/usr/lib/systemd/user/pulseaudio.socket'.
+
+Creating group 'polkitd' with GID 989.
+
+Creating user 'polkitd' (User for polkitd) with UID 989 and GID 989.
+
+
+### pkg cups  ###
+
+The following NEW packages will be installed:
+  bc cups cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common
+  dirmngr gnupg gnupg-l10n gpg gpg-agent gpgconf gpgsm libassuan9
+  libcupsfilters1t64 libexif12 libfontembed1t64 libgpgme11t64 libgpgmepp6t64
+  libksba8 libnpth0t64 libpoppler-cpp2 libpoppler147 libqpdf30 pinentry-curses
+  poppler-utils ssl-cert
+Preconfiguring packages ...
+0 upgraded, 32 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/10.5 MB of archives.
+After this operation, 38.8 MB of additional disk space will be used.
+Created symlink '/etc/systemd/system/multi-user.target.wants/cups.path' -> '/usr/lib/systemd/system/cups.path'.
+
+Created symlink '/etc/systemd/system/printer.target.wants/cups.service' -> '/usr/lib/systemd/system/cups.service'.
+
+Created symlink '/etc/systemd/system/multi-user.target.wants/cups.service' -> '/usr/lib/systemd/system/cups.service'.
+
+Created symlink '/etc/systemd/system/sockets.target.wants/cups.socket' -> '/usr/lib/systemd/system/cups.socket'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/keyboxd.socket' -> '/usr/lib/systemd/user/keyboxd.socket'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket' -> '/usr/lib/systemd/user/gpg-agent-browser.socket'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket' -> '/usr/lib/systemd/user/gpg-agent-extra.socket'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket' -> '/usr/lib/systemd/user/gpg-agent-ssh.socket'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/gpg-agent.socket' -> '/usr/lib/systemd/user/gpg-agent.socket'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/dirmngr.socket' -> '/usr/lib/systemd/user/dirmngr.socket'.
+
+Updating PPD files for cups ...
+Updating PPD files for cups-filters ...
+
+### pkg cups-client  ###
+
+The following NEW packages will be installed:
+  avahi-daemon libavahi-core7 libdaemon0 libnss-mdns
+0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/223 kB of archives.
+After this operation, 746 kB of additional disk space will be used.
+Created symlink '/etc/systemd/system/dbus-org.freedesktop.Avahi.service' -> '/usr/lib/systemd/system/avahi-daemon.service'.
+
+Created symlink '/etc/systemd/system/multi-user.target.wants/avahi-daemon.service' -> '/usr/lib/systemd/system/avahi-daemon.service'.
+
+Created symlink '/etc/systemd/system/sockets.target.wants/avahi-daemon.socket' -> '/usr/lib/systemd/system/avahi-daemon.socket'.
+
+
+### pkg printer-driver-all  ###
+
+The following NEW packages will be installed:
+  dc foomatic-db-compressed-ppds libcupsimage2t64 libgutenprint-common
+  libgutenprint9 libhpmud0 libjim0.83 liblcms2-utils libsnmp-base libsnmp40t64
+  libtcl8.6 libtk8.6 mscompress printer-driver-all printer-driver-brlaser
+  printer-driver-c2050 printer-driver-c2esp printer-driver-cjet
+  printer-driver-dymo printer-driver-escpr printer-driver-foo2zjs
+  printer-driver-foo2zjs-common printer-driver-fujixerox
+  printer-driver-gutenprint printer-driver-hpcups printer-driver-indexbraille
+  printer-driver-m2300w printer-driver-min12xxw printer-driver-oki
+  printer-driver-pnm2ppa printer-driver-postscript-hp printer-driver-ptouch
+  printer-driver-pxljr printer-driver-sag-gdi printer-driver-splix tcl tcl8.6
+  tix tk tk8.6 unzip usb-modeswitch usb-modeswitch-data
+Preconfiguring packages ...
+0 upgraded, 43 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/13.1 MB of archives.
+After this operation, 42.8 MB of additional disk space will be used.
+Updating PPD files for foomatic-db-compressed-ppds ...
+Updating PPD files for brlaser ...
+Updating PPD files for c2esp ...
+Updating PPD files for dymo ...
+Updating PPD files for escpr ...
+Updating PPD files for foo2zjs-common ...
+Updating PPD files for gutenprint ...
+Updating PPD files for hpcups ...
+Updating PPD files for m2300w ...
+Updating PPD files for postscript-hp ...
+Updating PPD files for ptouch ...
+Updating PPD files for pxljr ...
+Updating PPD files for sag-gdi ...
+Updating PPD files for splix ...
+
+### pkg foomatic-db-compressed-ppds  ###
+
+The following NEW packages will be installed:
+  desktop-file-utils
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/91.7 kB of archives.
+After this operation, 290 kB of additional disk space will be used.
+
+### pkg xsel  ###
+
+The following NEW packages will be installed:
+  xsel
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/19.9 kB of archives.
+After this operation, 56.3 kB of additional disk space will be used.
+
+### pkg psmisc  ###
+
+The following NEW packages will be installed:
+  psmisc
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/267 kB of archives.
+After this operation, 973 kB of additional disk space will be used.
+
+### pkg shared-mime-info  ###
+
+The following NEW packages will be installed:
+  lxpolkit lxsession-data
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/138 kB of archives.
+After this operation, 856 kB of additional disk space will be used.
+
+### pkg pkexec  ###
+
+The following NEW packages will be installed:
+  pkexec
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/24.9 kB of archives.
+After this operation, 62.5 kB of additional disk space will be used.
+
+### pkg plocate  ###
+
+The following NEW packages will be installed:
+  liburing2 plocate
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/171 kB of archives.
+After this operation, 710 kB of additional disk space will be used.
+update-alternatives: using /usr/bin/plocate to provide /usr/bin/locate (locate) in auto mode
+Created symlink '/etc/systemd/system/timers.target.wants/plocate-updatedb.timer' -> '/usr/lib/systemd/system/plocate-updatedb.timer'.
+
+plocate-updatedb.service is a disabled or a static unit, not starting it.
+
+### pkg network-manager  ###
+
+The following NEW packages will be installed:
+  libmm-glib0 libndp0 libnm0 libteamdctl0 network-manager
+0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/2975 kB of archives.
+After this operation, 11.1 MB of additional disk space will be used.
+
+The following network interfaces were found in /etc/network/interfaces
+which means they are currently configured by ifupdown:
+- enp0s25
+If you want to manage those interfaces with NetworkManager instead
+remove their configuration from /etc/network/interfaces.
+
+Created symlink '/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service' -> '/usr/lib/systemd/system/NetworkManager-dispatcher.service'.
+
+Created symlink '/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service' -> '/usr/lib/systemd/system/NetworkManager-wait-online.service'.
+
+Created symlink '/etc/systemd/system/multi-user.target.wants/NetworkManager.service' -> '/usr/lib/systemd/system/NetworkManager.service'.
+
+
+### pkg alsa-utils  ###
+
+The following NEW packages will be installed:
+  alsa-utils libatopology2t64
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/1192 kB of archives.
+After this operation, 2885 kB of additional disk space will be used.
+alsa-restore.service is a disabled or a static unit, not starting it.
+alsa-state.service is a disabled or a static unit, not starting it.
+
+### pkg pavucontrol  ###
+
+The following NEW packages will be installed:
+  libcairo-script-interpreter2 libcairomm-1.16-1 libcanberra0 libgles2
+  libglibmm-2.68-1t64 libgtk-4-1 libgtk-4-bin libgtk-4-common
+  libgtk-4-media-gstreamer libgtkmm-4.0-0 libharfbuzz-subset0 liblzo2-2
+  libpangomm-2.48-1t64 libpulse-mainloop-glib0 libsigc++-3.0-0 pavucontrol
+  sound-theme-freedesktop
+0 upgraded, 17 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/12.4 MB of archives.
+After this operation, 54.0 MB of additional disk space will be used.
+
+### pkg i3-wm  ###
+
+The following NEW packages will be installed:
+  dex i3-wm i3status libanyevent-i3-perl libanyevent-perl
+  libasync-interrupt-perl libcommon-sense-perl libconfuse-common libconfuse2
+  libev-perl libev4t64 libguard-perl libjson-xs-perl libnl-3-200
+  libnl-genl-3-200 libstartup-notification0 libtypes-serialiser-perl
+  libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1
+  libxcb-render-util0 libxcb-shape0 libxcb-util1 libxcb-xinerama0 libxcb-xrm0
+  xfonts-base
+0 upgraded, 27 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/8365 kB of archives.
+After this operation, 13.3 MB of additional disk space will be used.
+update-alternatives: using /usr/bin/i3 to provide /usr/bin/x-session-manager (x-session-manager) in auto mode
+update-alternatives: using /usr/bin/i3 to provide /usr/bin/x-window-manager (x-window-manager) in auto mode
+
+### pkg polybar  ###
+
+The following NEW packages will be installed:
+  libjsoncpp26 libmpdclient2t64 libxcb-composite0 libxcb-ewmh2 polybar
+0 upgraded, 5 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/1076 kB of archives.
+After this operation, 3894 kB of additional disk space will be used.
+
+### pkg dunst  ###
+
+The following NEW packages will be installed:
+  dunst libnotify4 xdg-utils
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/241 kB of archives.
+After this operation, 831 kB of additional disk space will be used.
+update-alternatives: using /usr/bin/xdg-open to provide /usr/bin/open (open) in auto mode
+
+### pkg jq  ###
+
+The following NEW packages will be installed:
+  jq libjq1 libonig5
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/431 kB of archives.
+After this operation, 1265 kB of additional disk space will be used.
+
+### pkg lshw  ###
+
+The following NEW packages will be installed:
+  lshw usb.ids
+0 upgraded, 2 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/521 kB of archives.
+After this operation, 1738 kB of additional disk space will be used.
+
+### pkg maim  ###
+
+The following NEW packages will be installed:
+  libglew2.2 libslopy7.6 maim
+0 upgraded, 3 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/314 kB of archives.
+After this operation, 1444 kB of additional disk space will be used.
+
+### pkg yad  ###
+
+The following NEW packages will be installed:
+  yad
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/168 kB of archives.
+After this operation, 568 kB of additional disk space will be used.
+
+### pkg fonts-noto-color-emoji  ###
+
+The following NEW packages will be installed:
+  fonts-noto-color-emoji
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/10.1 MB of archives.
+After this operation, 11.3 MB of additional disk space will be used.
+
+### pkg libnotify-bin  ###
+
+The following NEW packages will be installed:
+  libnotify-bin
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/12.8 kB of archives.
+After this operation, 46.1 kB of additional disk space will be used.
+
+### pkg bc  ###
+
+The following NEW packages will be installed:
+  inxi libxxf86dga1 lm-sensors mesa-utils mesa-utils-bin tree x11-utils
+0 upgraded, 7 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/2097 kB of archives.
+After this operation, 6176 kB of additional disk space will be used.
+Created symlink '/etc/systemd/system/multi-user.target.wants/lm-sensors.service' -> '/usr/lib/systemd/system/lm-sensors.service'.
+
+
+### pkg pcmanfm  ###
+
+The following NEW packages will be installed:
+  dosfstools exfatprogs fuse3 gcr gcr4 gnome-keyring gnome-keyring-pkcs11 gvfs
+  gvfs-backends gvfs-common gvfs-daemons gvfs-fuse gvfs-libs libaacs0
+  libarchive13t64 libatasmart4 libavahi-glib1 libavif16 libbdplus0
+  libblockdev-crypto3 libblockdev-fs3 libblockdev-loop3 libblockdev-mdraid3
+  libblockdev-nvme3 libblockdev-part3 libblockdev-swap3 libblockdev-utils3
+  libblockdev3 libbluray2 libbytesize-common libbytesize1 libcdio-cdda2t64
+  libcdio-paranoia2t64 libcdio19t64 libcryptsetup12 libdbus-glib-1-2
+  libfm-data libfm-extra4t64 libfm-gtk-data libfm-gtk3-4t64 libfm-modules
+  libfm4t64 libgav1-1 libgck-1-0 libgck-2-2 libgcr-4-4 libgcr-base-3-1
+  libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgoa-1.0-0b
+  libgoa-1.0-common libgphoto2-6t64 libgphoto2-l10n libgphoto2-port12t64
+  libimagequant0 libimobiledevice-1.0-6 libimobiledevice-glue-1.0-0 libldb2
+  libmenu-cache-bin libmenu-cache3 libmsgraph-1-1 libmtp-common libmtp-runtime
+  libmtp9t64 libnfs14 libntfs-3g89t64 libnvme1t64 libpam-gnome-keyring
+  libparted2t64 libplist-2.0-4 libsecret-1-0 libsecret-common libsmbclient0
+  libsoup-2.4-1 libsoup2.4-common libtalloc2 libtevent0t64 libudfread0
+  libudisks2-0 libusbmuxd-2.0-7 libvolume-key1 libwbclient0 libyuv0
+  lxde-icon-theme lxmenu-data ntfs-3g p11-kit p11-kit-modules parted pcmanfm
+  pinentry-gnome3 samba-libs udisks2 usbmuxd
+0 upgraded, 96 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/23.3 MB of archives.
+After this operation, 93.2 MB of additional disk space will be used.
+Adding 'diversion of /bin/fusermount to /bin/fusermount.usr-is-merged by fuse3'
+Adding 'diversion of /sbin/mount.fuse to /sbin/mount.fuse.usr-is-merged by fuse3'
+Adding 'diversion of /lib/x86_64-linux-gnu/libparted.so.2 to /lib/x86_64-linux-gnu/libparted.so.2.usr-is-merged by libparted2t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libparted.so.2.0.5 to /lib/x86_64-linux-gnu/libparted.so.2.0.5.usr-is-merged by libparted2t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libntfs-3g.so.89 to /lib/x86_64-linux-gnu/libntfs-3g.so.89.usr-is-merged by libntfs-3g89t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libntfs-3g.so.89.0.0 to /lib/x86_64-linux-gnu/libntfs-3g.so.89.0.0.usr-is-merged by libntfs-3g89t64'
+Removing 'diversion of /lib/x86_64-linux-gnu/libntfs-3g.so.89 to /lib/x86_64-linux-gnu/libntfs-3g.so.89.usr-is-merged by libntfs-3g89t64'
+Removing 'diversion of /lib/x86_64-linux-gnu/libntfs-3g.so.89.0.0 to /lib/x86_64-linux-gnu/libntfs-3g.so.89.0.0.usr-is-merged by libntfs-3g89t64'
+Removing 'diversion of /lib/x86_64-linux-gnu/libparted.so.2 to /lib/x86_64-linux-gnu/libparted.so.2.usr-is-merged by libparted2t64'
+Removing 'diversion of /lib/x86_64-linux-gnu/libparted.so.2.0.5 to /lib/x86_64-linux-gnu/libparted.so.2.0.5.usr-is-merged by libparted2t64'
+Removing 'diversion of /bin/fusermount to /bin/fusermount.usr-is-merged by fuse3'
+Removing 'diversion of /sbin/mount.fuse to /sbin/mount.fuse.usr-is-merged by fuse3'
+update-initramfs: deferring update (trigger activated)
+Created symlink '/etc/systemd/system/graphical.target.wants/udisks2.service' -> '/usr/lib/systemd/system/udisks2.service'.
+
+usbmuxd.service is a disabled or a static unit, not starting it.
+update-initramfs: Generating /boot/initrd.img-6.12.90+deb13.1-amd64
+Created symlink '/etc/systemd/user/graphical-session-pre.target.wants/gnome-keyring-daemon.service' -> '/usr/lib/systemd/user/gnome-keyring-daemon.service'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/gnome-keyring-daemon.socket' -> '/usr/lib/systemd/user/gnome-keyring-daemon.socket'.
+
+Created symlink '/etc/systemd/user/graphical-session-pre.target.wants/gcr-ssh-agent.service' -> '/usr/lib/systemd/user/gcr-ssh-agent.service'.
+
+Created symlink '/etc/systemd/user/sockets.target.wants/gcr-ssh-agent.socket' -> '/usr/lib/systemd/user/gcr-ssh-agent.socket'.
+
+
+### install_standalone_packages done

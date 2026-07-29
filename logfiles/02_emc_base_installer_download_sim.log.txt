@@ -1,0 +1,22 @@
+
+### EMC DOWNLOAD SIMULATION Tue, 28 Jul 2026 08:42:08 +0200 ###
+
+
+
+
+System:
+
+   OS               : Debian GNU/Linux 13 (trixie) ()
+   Desktop          : UNKNOWN_DESKTOP
+   Desktop sessions : 
+   Standalone EMC   : false
+   Desktop    EMC   : false
+   Minimal system   : true
+   EMC installed    : false
+   EMC running      : false
+
+### TOTAL DOWNLOAD SIZE estimated ###
+
+Need to get 370 MB of archives.
+
+Download speed: 2.25 MB/s estimated duration: 02m 44s

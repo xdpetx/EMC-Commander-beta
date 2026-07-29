@@ -1,0 +1,56 @@
+
+### EMC INSTALL SIMULATION BEGIN Tue, 28 Jul 2026 08:50:09 +0200 ###
+
+
+System:
+
+   OS               : Debian GNU/Linux 13 (trixie) ()
+   Desktop          : UNKNOWN_DESKTOP
+   Desktop sessions : 
+   Standalone EMC   : false
+   Desktop    EMC   : false
+   Minimal system   : true
+   EMC installed    : false
+   EMC running      : false
+
+install_config:
+
+   EMC config will be extracted to /home/hklein/.config/
+
+install_fonts:
+
+   will run mkdir -p /usr/share/fonts/truetype/EMC
+   will run cp SymbolsNerdFontMono-Regular.ttf NotoSans-Regular.ttf DejaVuSansMono.ttf to /usr/share/fonts/truetype/EMC
+
+install_icons:
+
+   will run mkdir -p /usr/share/icons
+   will extract EMC_hicolor_icons.tar.gz to /usr/share/icons
+
+setup_desktop:
+
+   setup i3_EMC desktop environment
+
+setup_keyboard:
+
+   will setup keyboard specific files for de
+
+finish_setup:
+
+   will run mkdir -p $HOME/Desktop
+   will run mkdir -p $HOME/Pictures
+   will run mkdir -p $HOME/.config/polybar/log
+
+   will setup extended sources for apt ...
+   
+   will initialize plocate search database: updatedb
+
+   will enable network interface ...
+
+   will setup your user groups: usermod -aG cdrom,floppy,sudo,audio,dip,video,plugdev,users,netdev,bluetooth,lp,lpadmin,dialout,input
+
+   will create .xinitrc for startx: exec i3
+
+### TOTAL INSTALLATION SIZE estimated ###
+
+After this operation, 1362 MB of additional disk space will be used.

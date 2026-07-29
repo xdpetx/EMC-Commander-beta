@@ -1,0 +1,222 @@
+
+### EMC DOWNLOAD BEGIN Tue, 28 Jul 2026 08:42:21 +0200 ###
+
+
+System:
+
+   OS               : Debian GNU/Linux 13 (trixie) ()
+   Desktop          : UNKNOWN_DESKTOP
+   Desktop sessions : 
+   Standalone EMC   : false
+   Desktop    EMC   : false
+   Minimal system   : true
+   EMC installed    : false
+   EMC running      : false
+
+Download packages :
+
+   see DOWNLOAD log after DOWNLOAD END
+
+### EMC DOWNLOAD END   Tue, 28 Jul 2026 08:45:21 +0200 ###
+
+
+########## DOWNLOAD LOG ##########
+
+
+########## DOWNLOAD LOG OVERVIEW ##########
+### download_standalone_packages Tue, 28 Jul 2026 08:42:37 +0200
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Err:11 http://ftp.halifax.rwth-aachen.de/debian trixie-updates/main amd64 Packages.diff/Index
+  Need 4750 compressed bytes, but limit is 4412 and original is 4412
+Ign:11 http://ftp.halifax.rwth-aachen.de/debian trixie-updates/main amd64 Packages.diff/Index
+Fetched 27.5 MB in 11s (2561 kB/s)
+0 upgraded, 769 newly installed, 0 to remove and 16 not upgraded.
+Need to get 370 MB of archives.
+After this operation, 1362 MB of additional disk space will be used.
+Fetched 370 MB in 2min 29s (2485 kB/s)
+Download complete and in download only mode
+
+### download_standalone_packages done in 162 sec. Tue, 28 Jul 2026 08:45:21 +0200
+
+
+########## DOWNLOAD LOG DETAILS  ##########
+
+### download_standalone_packages Tue, 28 Jul 2026 08:42:37 +0200
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Err:11 http://ftp.halifax.rwth-aachen.de/debian trixie-updates/main amd64 Packages.diff/Index
+  Need 4750 compressed bytes, but limit is 4412 and original is 4412
+Ign:11 http://ftp.halifax.rwth-aachen.de/debian trixie-updates/main amd64 Packages.diff/Index
+Fetched 27.5 MB in 11s (2561 kB/s)
+The following NEW packages will be installed:
+  acl adwaita-icon-theme alsa-topology-conf alsa-ucm-conf alsa-utils apt-file
+  apt-rdepends apt-show-versions at-spi2-common at-spi2-core avahi-daemon bc
+  bluez bsd-mailx colord colord-data cpp cpp-14 cpp-14-x86-64-linux-gnu
+  cpp-x86-64-linux-gnu cups cups-browsed cups-client cups-common
+  cups-core-drivers cups-daemon cups-filters cups-filters-core-drivers
+  cups-ipp-utils cups-ppdc cups-server-common dc dconf-gsettings-backend
+  dconf-service debsecan desktop-file-utils dex dirmngr dns-root-data
+  dnsmasq-base dosfstools dunst exfatprogs exim4-base exim4-config
+  exim4-daemon-light fontconfig fontconfig-config fonts-dejavu
+  fonts-dejavu-core fonts-dejavu-extra fonts-dejavu-mono fonts-droid-fallback
+  fonts-noto-color-emoji fonts-noto-mono fonts-urw-base35 fonts-vlgothic
+  foomatic-db-compressed-ppds fuse3 gcr gcr4 ghostscript glib-networking
+  glib-networking-common glib-networking-services gnome-keyring
+  gnome-keyring-pkcs11 gnupg gnupg-l10n gnupg-utils gpg gpg-agent
+  gpg-wks-client gpgconf gpgsm gpgv gsettings-desktop-schemas gstreamer1.0-gl
+  gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good
+  gstreamer1.0-x gtk-update-icon-cache gvfs gvfs-backends gvfs-common
+  gvfs-daemons gvfs-fuse gvfs-libs hicolor-icon-theme i3-wm i3status
+  i965-va-driver imagemagick-7-common intel-media-va-driver inxi ipp-usb jq
+  libaa1 libaacs0 libabsl20240722 libanyevent-i3-perl libanyevent-perl libaom3
+  libapt-pkg-perl libarchive13t64 libasound2-data libasound2-plugins
+  libasound2t64 libass9 libassuan9 libasync-interrupt-perl libasyncns0
+  libatasmart4 libatk-bridge2.0-0t64 libatk1.0-0t64 libatomic1
+  libatopology2t64 libatspi2.0-0t64 libauthen-sasl-perl libavahi-client3
+  libavahi-common-data libavahi-common3 libavahi-core7 libavahi-glib1
+  libavc1394-0 libavcodec61 libavif16 libavtp0 libavutil59 libbdplus0
+  libblockdev-crypto3 libblockdev-fs3 libblockdev-loop3 libblockdev-mdraid3
+  libblockdev-nvme3 libblockdev-part3 libblockdev-swap3 libblockdev-utils3
+  libblockdev3 libbluetooth3 libbluray2 libbs2b0 libbytesize-common
+  libbytesize1 libcaca0 libcairo-gobject2 libcairo-script-interpreter2
+  libcairo2 libcairomm-1.16-1 libcanberra0 libcdio-cdda2t64
+  libcdio-paranoia2t64 libcdio19t64 libcdparanoia0 libchromaprint1
+  libclone-perl libcloudproviders0 libcodec2-1.2 libcolord2 libcolorhug2
+  libcommon-sense-perl libconfuse-common libconfuse2 libcpuinfo0
+  libcryptsetup12 libcups2t64 libcupsfilters1t64 libcupsimage2t64
+  libcurl3t64-gnutls libcurl4t64 libdaemon0 libdata-dump-perl libdatrie1
+  libdav1d7 libdbus-glib-1-2 libdc1394-25 libdca0 libdconf1 libde265-0
+  libdecor-0-0 libdecor-0-plugin-1-gtk libdeflate0 libdjvulibre-text
+  libdjvulibre21 libdnnl3.6 libdrm-amdgpu1 libdrm-common libdrm-intel1
+  libdrm-nouveau2 libdrm-radeon1 libdrm2 libduktape207 libdv4t64 libdvdnav4
+  libdvdread8t64 libdw1t64 libebur128-1 libegl-mesa0 libegl1
+  libencode-locale-perl libepoxy0 libev-perl libev4t64 libevdev2
+  libevent-2.1-7t64 libexif12 libfaad2 libfftw3-double3 libfftw3-single3
+  libfile-basedir-perl libfile-desktopentry-perl libfile-fcntllock-perl
+  libfile-listing-perl libfile-mimeinfo-perl libflac14 libflite1
+  libfluidsynth3 libfm-data libfm-extra4t64 libfm-gtk-data libfm-gtk3-4t64
+  libfm-modules libfm4t64 libfont-afm-perl libfontconfig1 libfontembed1t64
+  libfontenc1 libfreeaptx0 libfribidi0 libgav1-1 libgbm1 libgck-1-0 libgck-2-2
+  libgcr-4-4 libgcr-base-3-1 libgcr-ui-3-1 libgcrypt20 libgd3 libgdata-common
+  libgdata22 libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common
+  libgl1 libgl1-mesa-dri libgles2 libglew2.2 libglib2.0-0t64 libglib2.0-data
+  libglibmm-2.68-1t64 libglvnd0 libglx-mesa0 libglx0 libgme0
+  libgnutls-dane0t64 libgoa-1.0-0b libgoa-1.0-common libgomp1
+  libgpg-error-l10n libgpg-error0 libgpgme11t64 libgpgmepp6t64 libgphoto2-6t64
+  libgphoto2-l10n libgphoto2-port12t64 libgpm2 libgraphene-1.0-0
+  libgraphite2-3 libgs-common libgs10 libgs10-common libgsm1 libgssdp-1.6-0
+  libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0
+  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0t64 libgtk-3-bin
+  libgtk-3-common libgtk-4-1 libgtk-4-bin libgtk-4-common
+  libgtk-4-media-gstreamer libgtkmm-4.0-0 libguard-perl libgudev-1.0-0
+  libgupnp-1.6-0 libgupnp-igd-1.6-0 libgusb2 libgutenprint-common
+  libgutenprint9 libharfbuzz-subset0 libharfbuzz0b libheif-plugin-aomenc
+  libheif-plugin-dav1d libheif-plugin-libde265 libheif-plugin-x265 libheif1
+  libhpmud0 libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libhwy1t64 libice6 libicu76 libidn12 libiec61883-0
+  libieee1284-3t64 libigdgmm12 libijs-0.35 libimagequant0 libimath-3-1-29t64
+  libimobiledevice-1.0-6 libimobiledevice-glue-1.0-0 libinput-bin libinput10
+  libinstpatch-1.0-2 libio-compress-brotli-perl libio-html-perl
+  libio-socket-ssl-perl libio-stringy-perl libipc-system-simple-perl libisl23
+  libjack-jackd2-0 libjbig0 libjbig2dec0 libjim0.83 libjpeg62-turbo libjq1
+  libjson-glib-1.0-0 libjson-glib-1.0-common libjson-xs-perl libjsoncpp26
+  libjxl0.11 libjxr-tools libjxr0t64 libksba8 liblc3-1 liblcms2-2
+  liblcms2-utils libldacbt-enc2 libldap-common libldap2 libldb2 liblerc4
+  liblilv-0-0 libllvm19 liblockfile1 liblouis-data liblouis20
+  liblouisutdml-bin liblouisutdml-data liblouisutdml9t64 liblqr-1-0 liblrdf0
+  libltc11 libltdl7 liblwp-mediatypes-perl liblwp-protocol-https-perl
+  liblzo2-2 libmagickcore-7.q16-10 libmagickcore-7.q16-10-extra
+  libmagickwand-7.q16-10 libmailtools-perl libmbim-glib4 libmbim-proxy
+  libmbim-utils libmenu-cache-bin libmenu-cache3 libmjpegutils-2.1-0t64
+  libmm-glib0 libmodplug1 libmp3lame0 libmpc3 libmpcdec6 libmpdclient2t64
+  libmpeg2encpp-2.1-0t64 libmpfr6 libmpg123-0t64 libmplex2-2.1-0t64
+  libmsgraph-1-1 libmtdev1t64 libmtp-common libmtp-runtime libmtp9t64
+  libmysofa1 libncurses6 libndp0 libneon27t64 libnet-dbus-perl
+  libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl
+  libnetfilter-conntrack3 libnfnetlink0 libnfs14 libnghttp3-9 libngtcp2-16
+  libngtcp2-crypto-gnutls8 libnice10 libnl-3-200 libnl-genl-3-200
+  libnl-route-3-200 libnm0 libnotify-bin libnotify4 libnpth0t64 libnsl2
+  libnspr4 libnss-mdns libnss3 libntfs-3g89t64 libnuma1 libnvme1t64 libogg0
+  libonig5 libonnx1t64 libonnxruntime1.21 libopenal-data libopenal1
+  libopencore-amrnb0 libopencore-amrwb0 libopenexr-3-1-30 libopenh264-8
+  libopenjp2-7 libopenmpt0t64 libopenni2-0 libopus0 liborc-0.4-0t64
+  libpam-gnome-keyring libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpangomm-2.48-1t64 libpaper-utils libpaper2 libparted2t64 libpcap0.8t64
+  libpciaccess0 libpcsclite1 libpipewire-0.3-0t64 libpipewire-0.3-common
+  libpixman-1-0 libplist-2.0-4 libpolkit-agent-1-0 libpolkit-gobject-1-0
+  libpoppler-cpp2 libpoppler-glib8t64 libpoppler147 libprotobuf32t64
+  libproxy1v5 libpthreadpool0 libptytty0 libpulse-mainloop-glib0 libpulse0
+  libpulsedsp libqmi-glib5 libqmi-proxy libqmi-utils libqpdf30 libqrencode4
+  libqrtr-glib0 libraptor2-0 librav1e0.7 libraw1394-11 libraw23t64 libre2-11
+  libregexp-assemble-perl librsvg2-2 librsvg2-common librtmp1 libsamplerate0
+  libsane-common libsane1 libsasl2-2 libsasl2-modules libsasl2-modules-db
+  libsbc1 libsdl2-2.0-0 libsecret-1-0 libsecret-common libsensors-config
+  libsensors5 libserd-0-0 libsharpyuv0 libshine3 libshout3 libsigc++-3.0-0
+  libslopy7.6 libsm6 libsmbclient0 libsnappy1v5 libsndfile1 libsnmp-base
+  libsnmp40t64 libsord-0-0 libsoundtouch1 libsoup-2.4-1 libsoup-3.0-0
+  libsoup-3.0-common libsoup2.4-common libsoxr0 libspa-0.2-modules
+  libspandsp2t64 libspeex1 libspeexdsp1 libsratom-0-0 libsrt1.5-gnutls
+  libsrtp2-1 libssh2-1t64 libstartup-notification0 libsvtav1enc2
+  libswresample5 libtag2 libtalloc2 libtcl8.6 libtdb1 libteamdctl0
+  libtevent0t64 libthai-data libthai0 libtheora0 libtheoradec1 libtheoraenc1
+  libtie-ixhash-perl libtiff6 libtimedate-perl libtk8.6 libtry-tiny-perl
+  libtwolame0 libtypes-serialiser-perl libudfread0 libudisks2-0 libunbound8
+  libunibreak6 libunwind8 liburi-perl liburing2 libusbmuxd-2.0-7 libv4l-0t64
+  libv4lconvert0t64 libva-drm2 libva-x11-2 libva2 libvdpau-va-gl1 libvdpau1
+  libvisual-0.4-0 libvo-aacenc0 libvo-amrwbenc0 libvolume-key1 libvorbis0a
+  libvorbisenc2 libvorbisfile3 libvpl2 libvpx9 libvulkan1 libwacom-common
+  libwacom9 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1
+  libwayland-server0 libwbclient0 libwebp7 libwebpdemux2 libwebpmux3
+  libwebrtc-audio-processing-1-3 libwildmidi2 libwmflite-0.2-7 libwrap0
+  libwww-perl libwww-robotrules-perl libx11-protocol-perl libx11-xcb1
+  libx264-164 libx265-215 libxatracker2 libxaw7 libxcb-composite0
+  libxcb-cursor0 libxcb-dri2-0 libxcb-dri3-0 libxcb-ewmh2 libxcb-glx0
+  libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-present0 libxcb-randr0
+  libxcb-render-util0 libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync1
+  libxcb-util1 libxcb-xfixes0 libxcb-xinerama0 libxcb-xkb1 libxcb-xrm0
+  libxcomposite1 libxcursor1 libxcvt0 libxdamage1 libxfixes3 libxfont2 libxft2
+  libxi6 libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxkbfile1
+  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl libxmu6
+  libxnnpack0.20241108 libxpm4 libxrandr2 libxrender1 libxshmfence1 libxslt1.1
+  libxss1 libxt6t64 libxtst6 libxv1 libxvidcore4 libxvmc1 libxxf86dga1
+  libxxf86vm1 libyajl2 libyuv0 libz3-4 libzbar0t64 libzix-0-0 libzvbi-common
+  libzvbi0t64 libzxing3 lm-sensors lshw luit lxde-icon-theme lxmenu-data
+  lxpolkit lxsession-data lynx lynx-common mailcap maim mesa-libgallium
+  mesa-utils mesa-utils-bin mesa-va-drivers mesa-vdpau-drivers
+  mesa-vulkan-drivers modemmanager mscompress network-manager
+  network-manager-l10n ntfs-3g ocl-icd-libopencl1 p11-kit p11-kit-modules
+  parted pavucontrol pcmanfm perl-openssl-defaults pinentry-curses
+  pinentry-gnome3 pkexec plocate polkitd polybar poppler-data poppler-utils
+  ppp printer-driver-all printer-driver-brlaser printer-driver-c2050
+  printer-driver-c2esp printer-driver-cjet printer-driver-dymo
+  printer-driver-escpr printer-driver-foo2zjs printer-driver-foo2zjs-common
+  printer-driver-fujixerox printer-driver-gutenprint printer-driver-hpcups
+  printer-driver-indexbraille printer-driver-m2300w printer-driver-min12xxw
+  printer-driver-oki printer-driver-pnm2ppa printer-driver-postscript-hp
+  printer-driver-ptouch printer-driver-pxljr printer-driver-sag-gdi
+  printer-driver-splix psmisc pulseaudio pulseaudio-module-bluetooth
+  pulseaudio-utils rtkit rxvt-unicode samba-libs sane-airscan sane-utils
+  sgml-base shared-mime-info sound-theme-freedesktop ssl-cert tcl tcl8.6
+  timgm6mb-soundfont tix tk tk8.6 tree udisks2 unzip update-inetd
+  usb-modeswitch usb-modeswitch-data usb.ids usbmuxd va-driver-all
+  vdpau-driver-all wireless-regdb wpasupplicant x11-common x11-utils
+  x11-xkb-utils x11-xserver-utils xcvt xdg-user-dirs xdg-utils xfonts-base
+  xfonts-encodings xfonts-utils xinit xml-core xsel xserver-common
+  xserver-xorg xserver-xorg-core xserver-xorg-input-all
+  xserver-xorg-input-libinput xserver-xorg-input-wacom xserver-xorg-legacy
+  xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati
+  xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-nouveau
+  xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa
+  xserver-xorg-video-vmware yad
+0 upgraded, 769 newly installed, 0 to remove and 16 not upgraded.
+Need to get 370 MB of archives.
+After this operation, 1362 MB of additional disk space will be used.
+Fetched 370 MB in 2min 29s (2485 kB/s)
+Download complete and in download only mode
+
+### download_standalone_packages done in 162 sec. Tue, 28 Jul 2026 08:45:21 +0200
