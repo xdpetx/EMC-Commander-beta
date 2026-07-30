@@ -1,0 +1,48 @@
+#################################
+#    Window Settings & Rules    #
+#################################
+
+# Enable window icons for all windows
+for_window [all] title_window_icon on
+
+# Enable border for all windows
+for_window [all] border normal 2
+
+# Ensure that YAD dialogues are floating
+for_window [class="(?i)yad"] floating enable, border normal
+
+# Rule for yad EMC_Toolbar
+for_window [instance="EMC_Toolbar"] floating enable, sticky enable, move position center, move down 350
+
+# Rule for yad EMC_App_Installer
+for_window [instance="EMC_App_Installer"] floating disable, border normal
+
+# Rule for yad EMC_App_Installer dialogs
+#for_window [instance="EMC_appinstaller_dlg"] floating enable
+
+# Rule for yad EMC_Set_Resolution
+for_window [instance="EMC_Set_Resolution"] floating enable, sticky enable, move position center
+
+# Rule for yad EMC_Exit
+for_window [instance="EMC_Exit"] floating enable, sticky enable, move position center
+
+# Ensure that pavucontrol is floating
+for_window [class="(?i)pavucontrol"] floating enable, border normal 2, resize set 600 400, move position center
+
+# Ensure that Nm-connection-editor is floating
+for_window [class="(?i)nm-connection-editor"] floating enable, border normal 2
+
+# Ensure that Blueman is floating
+for_window [class="(?i)blueman-manager"] floating enable, border normal 2, resize set 600 400, move position center
+
+# Ensure that Galculator is floating
+for_window [class="(?i)galculator"] floating enable, border normal 2, resize set 600 400, move position center
+
+# Ensure that simple-scan is floating
+for_window [class="(?i)simple-scan"] floating enable, border normal 2, resize set 600 400, move position center
+
+# Ensure that xfce4-appfinder is floating
+for_window [class="(?i)xfce4-appfinder"] floating enable, border normal 2, resize set 800 600, move position center
+
+# Ensure that ukui polkit is floating
+for_window [class="(?i)polkit-ukui-authentication-agent-1"] floating enable, border normal 2, resize set 800 600, move position center

@@ -1,0 +1,137 @@
+# look at https://github.com/dunst-project/dunst/blob/master/dunstrc#L1
+
+# This is dunst.rc  for EMC Commander. Do not change anything.
+# Changes may have unpredictable effects !!!
+
+[global]
+
+    # Set global colors to match the i3 steel blue theme.
+    # These will apply to all notifications unless overridden below.
+    
+    # bg from client.focused in i3
+    background = "#285577"
+    # fg from client.focused in i3
+    foreground = "#ffffff"
+    frame_color = "#4c7899"
+    
+    # Matching yad window font for consistency
+    font = monospace 12
+    
+    # Enables interpretation of Pango markup.
+    # Allowed values: full, strip, no
+    markup = full
+    
+	# Optional: A thin border to separate it from the background
+	frame_width = 3
+	icon_position = off
+	#icon_position = top
+
+	# Notification width (minimum and maximum)
+	# 0-350 means: It grows with the text, but up to a maximum of 1000 pixels.
+	width = (0, 1000)
+	height = (0, 900)
+
+	# Position the notification in the top right corner
+	origin = top-right
+
+	# Distance from the edge (right, top)
+	offset = (10, 30)
+
+	# Turn on the progress bar.
+	# It appears when a progress hint is passed with for example dunstify -h int:value:12
+	progress_bar = true
+
+	show_age_threshold = -1
+	show_indicators = false
+	hide_duplicate_count = true
+
+[urgency_low]
+	background = "#1166AA"
+	# Time in seconds. 10 means the notification stays for 10 seconds.
+	timeout = 5
+
+[urgency_normal]
+	background = "#1166AA"
+	# This is usually what notify-send triggers by default.
+	timeout = 10
+
+[urgency_critical]
+	background = "#AA6611"
+	# 0 means the notification will not disappear until clicked.
+	timeout = 0
+
+#NOTIFY_ID_I(nfo)=100
+[mainbar]
+	stack_tag = "mainbar"
+
+	background = "#aaaaaa"
+	foreground = "#000000"
+	frame_color = "#aa0000"
+
+	format = "%b"
+
+	timeout = 0
+	
+#NOTIFY_ID_I(nfo)=100
+[module]
+	stack_tag = "module"
+	format = "%b"
+	frame_color = "#F0C674"
+
+    background = "#285577"
+    foreground = "#ffffff"
+	timeout = 0
+
+#NOTIFY_ID_I(nfo)=100
+[module_s]
+	stack_tag = "module_s"
+	format = "%b"
+	frame_color = "#F0C674"
+
+    background = "#285577"
+    foreground = "#ffffff"
+	timeout = 7
+
+#NOTIFY_ID_H(elp)=200
+[module_h]
+	stack_tag = "module_h"
+	format = "%b"
+	frame_color = "#F0C674"
+
+	background = "#eeeeee"
+#  be careful: changing fg has effects for switching available features
+	foreground = "#222222"
+	timeout = 7
+
+#NOTIFY_ID_I(nfo)=100
+[control]
+	stack_tag = "control"
+	format = "%b"
+	frame_color = "#8ABEFF"
+
+    background = "#285577"
+    foreground = "#ffffff"
+	timeout = 0
+
+#NOTIFY_ID_I(nfo)=100
+[control_s]
+	stack_tag = "control_s"
+	format = "%b"
+	frame_color = "#8ABEFF"
+
+    background = "#285577"
+    foreground = "#ffffff"
+	timeout = 7
+
+#NOTIFY_ID_H(elp)=200
+[control_h]
+	stack_tag = "control_h"
+	format = "%b"
+	frame_color = "#8ABEFF"
+
+	background = "#eeeeee"
+	foreground = "#222222"
+	timeout = 7
+
+#NOTIFY_ID_M(essage)=1002
+#NOTIFY_ID_W(arn)=1003

@@ -1,0 +1,36 @@
+# emc key bindings
+
+########## replace default bindings ##########
+
+# start a terminal
+bindsym $mod+Return exec lxterminal
+
+# reload the configuration file
+bindsym $mod+Shift+c exec "$HOME/.config/polybar/i3/script/i3_event_exit.sh right"
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r exec "$HOME/.config/polybar/i3/script/i3_event_exit.sh middle"
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "$HOME/.config/polybar/i3/script/i3_event_exit.sh left"
+
+# start program launcher
+bindsym $mod+d exec --no-startup-id xfce4-appfinder
+
+##########    define EMC bindings   ##########
+
+# show i3 shortcut reference
+bindsym $mod+F1 exec --no-startup-id "xdg-open $HOME/.config/i3/usr/i3_Reference_Card.pdf"
+
+# prntscrn
+bindsym Print exec "$HOME/.config/polybar/script/event_screenshot.sh left"
+bindsym $mod+Print exec "$HOME/.config/polybar/script/event_screenshot.sh dbl_left"
+
+# left = button1, right = button3, middle = button2 
+# scroll up = button 4, sroll down = button 5
+# do not use button1 because i3 uses button1 to select windows etc.
+bindsym button3 exec i3-msg kill
+bindsym button2 exec i3-msg floating toggle
+
+bindsym --border $mod+button4 move left
+bindsym --border $mod+button5 move right
+bindsym --border $mod+shift+button4 move up
+bindsym --border $mod+shift+button5 move down

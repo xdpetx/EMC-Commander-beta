@@ -1,0 +1,27 @@
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+
+# --- EDITING RULES ---
+# Format is  set $ws1 "WS_NUMBER:WS_NAME"
+# ONLY edit the text inside the quotes AFTER the colon.
+# Example: set $ws1 "1:YOUR_ICON_HERE"
+#
+# DO NOT change 'set'
+# DO NOT change '$wsX'
+# DO NOT remove or comment out any lines!
+# DO NOT add lines!
+# WS_NAME may not be empty or whitespace
+# Any other change will break the Polybar icons and the startup scripts.
+
+### config_workspaces BEGIN ###
+set $ws1 "1:󰋜"
+set $ws2 "2:󰽯"
+set $ws3 "3:󰽯 2"
+set $ws4 "4:"
+set $ws5 "5: 2"
+set $ws6 "6:EMC"
+set $ws7 "7:PROGRAMMING"
+set $ws8 "8:8"
+set $ws9 "9:9"
+set $ws10 "10:󰶆"
+### config_workspaces END  ###

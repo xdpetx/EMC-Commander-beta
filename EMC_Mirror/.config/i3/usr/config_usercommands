@@ -1,0 +1,29 @@
+#####################################
+#  user specific i3 start commands  #
+#####################################
+
+#################################
+# Authentication Agent (Polkit) #
+#################################
+# Only one agent should be active.
+
+### Autodetect ###
+exec --no-startup-id /usr/bin/lxpolkit
+
+#################################
+#  System Services & Settings   #
+#################################
+
+# Ensure keyboard settings persist after i3 restarts
+# Change ONLY the layouts after -layout, keep the options and structure intact:
+exec_always --no-startup-id setxkbmap -layout de,us,es,fr -option 'grp:alt_shift_toggle'
+
+# Open new workspaces in tabbed layout
+workspace_layout tabbed
+
+# Set static background color
+exec --no-startup-id xsetroot -solid "#333333"
+
+# Set resolution on start - NOTE: You must edit or comment out accordingly!!!
+# exec --no-startup-id xrandr --output "your_output" --mode "your_mode"
+#exec --no-startup-id xrandr --output "DP-2" --mode "1920x1080"
