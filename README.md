@@ -172,9 +172,10 @@ When installing Debian on step 2
 ```
 
 
-  view [package info](packages.md)   
+  view [package info](packages.md)  
+  view [source](EMC_Mirror)   
   download [guidance](screenshots/archives/Debian_netinst_screenshots.tar.gz) how to install a Debian minimal system  
-  download [Installer](EMC_INSTALL_standalone.tar.gz)  
+  download [Installer](EMC_Mirror/EMC_INSTALL_standalone.tar.gz)  
 
 ```
 Every time EMC starts, a log file is created and the previous one is overwritten. 
