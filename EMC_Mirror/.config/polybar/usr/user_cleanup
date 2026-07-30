@@ -1,0 +1,7 @@
+### These commands will be executed when exiting i3
+
+# Cleanup User begin
+
+# ... your special cleanup
+
+# Cleanup User end

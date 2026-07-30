@@ -1,0 +1,20 @@
+# Polybar Monitor Configuration Guide
+
+This setup uses modular profiles to ensure the bar looks perfect on any screen resolution. 
+All hardware-specific settings are stored in the monitor-data section.
+
+###  How to APPLY a PROFILE:
+1. **Choose your resolution**: Locate the file matching your monitor (e.g., monitor_1920x1080.ini).
+2. **Copy & Paste**: Open your chosen profile, copy the entire content.
+3. **Update monitor.ini**: Paste the content into your active monitor.ini file.
+4. **Reload**: Restart Polybar to apply the new dimensions and font sizes.
+
+### Fine-tuning (Optional):
+If you want to adjust the look, only modify the values in the active monitor.ini:
+
+* **Bar Heights**: Change mainbar_height (e.g., 30pt) or launchbar_height (e.g., 24pt).
+* **Fonts & Alignment**: Font strings use the format: size=<size>;<vertical-offset>.
+* **Centering**: If icons sit too high in a tall bar, increase the offset number after the semicolon (e.g., change ;2 to ;4).
+
+### IMPORTANT Note:
+Do not change the variable names on the left side of the "=" sign, as the main configuration (bar_launch.ini) depends on these specific names to function correctly.
