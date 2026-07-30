@@ -1,0 +1,74 @@
+# edit this file to your needs and
+# copy as .bash_history to $HOME in your minimal installation
+
+#######################  Console setup ############################
+
+#Encoding: UTF-8
+#Character Set: Combined - Latin; Slavic and Greek (or use the default)
+#Font: Terminus
+#Size: 16x32 or TerminusBold 16x32
+
+sudo dpkg-reconfigure console-setup
+
+#######################  Network setup ############################
+
+ip -brief link
+ip -brief link | cut -d' ' -f1 | grep -v lo
+ip addr show $( ip -brief link | cut -d' ' -f1 | grep -v lo)
+#ip addr show enp0s25
+sudo nano /etc/network/interfaces
+sudo systemctl restart networking
+
+journalctl -u networking --no-pager -n 20
+ping -c 3 google.de
+
+#################### check Installation ###########################
+
+ping -c 3 google.de
+sudo dpkg --configure -a > output.txt
+echo >> output.txt
+sudo apt clean >> output.txt
+sudo apt update >> output.txt
+sudo apt install -f >> output.txt
+
+sudo dpkg --audit
+dpkg -l | grep ^[ihr] > install_check.txt
+
+echo >> output.txt
+ps aux --sort=%mem  >> output.txt 
+
+echo >> output.txt
+mount | grep " / " >> output.txt 
+
+####################### some useful commands ######################
+
+sudo apt update 
+ls -la
+mkdir -p ~/.config ~/.local/share ~/Downloads
+ls -la
+sudo /sbin/reboot 
+sudo /sbin/shutdown now
+
+#######################  Install EMC ##############################
+
+# first make some directories ...
+mkdir -p ~/.config ~/.local/share ~/Downloads
+# then go to your Download dir
+cd $HOME/Downloads/
+# extract EMC installer
+tar -xvf EMC_INSTALL_standalone.tar.gz -C ~
+# and run installation
+$HOME/EMC_install/EMC_standalone_base_installer.sh
+# start EMC
+startx
+
+###################### copy Archive from USB ######################
+
+# first identify your usb stick
+lsblk -o NAME,MODEL,SIZE,RM,TYPE,TRAN -n
+# create /mnt directory
+sudo mkdir -p /mnt
+# then mount the stick
+sudo mount /dev/your_usb_partition /mnt
+# make some directories ...
+mkdir -p ~/.config ~/.local/share ~/Downloads
