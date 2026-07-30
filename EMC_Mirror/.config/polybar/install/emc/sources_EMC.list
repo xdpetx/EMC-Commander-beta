@@ -1,0 +1,22 @@
+#deb cdrom:[Debian GNU/Linux 13.3.0 _Trixie_ - Official amd64 NETINST with firmware 20260110-10:59]/ trixie contrib main non-free-firmware
+
+deb http://ftp.halifax.rwth-aachen.de/debian/ trixie main contrib non-free-firmware non-free
+deb-src http://ftp.halifax.rwth-aachen.de/debian/ trixie main contrib non-free-firmware non-free
+
+deb http://security.debian.org/debian-security trixie-security main contrib non-free-firmware non-free
+deb-src http://security.debian.org/debian-security trixie-security main contrib non-free-firmware non-free
+
+# trixie-updates, to get updates before a point release is made;
+# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
+deb http://ftp.halifax.rwth-aachen.de/debian/ trixie-updates main contrib non-free-firmware non-free
+deb-src http://ftp.halifax.rwth-aachen.de/debian/ trixie-updates main contrib non-free-firmware non-free
+
+# This system was installed using removable media other than
+# CD/DVD/BD (e.g. USB stick, SD card, ISO image file).
+# The matching "deb cdrom" entries were disabled at the end
+# of the installation process.
+# For information about how to configure apt package sources,
+# see the sources.list(5) manual.
+
+# Add Fasttrack-Repository
+deb [signed-by=/usr/share/keyrings/fasttrack-archive-keyring.gpg] http://fasttrack.debian.net/debian-fasttrack/ trixie-fasttrack main contrib non-free

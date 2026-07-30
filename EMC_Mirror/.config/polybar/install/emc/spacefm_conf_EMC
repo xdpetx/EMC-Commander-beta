@@ -1,0 +1,56 @@
+# /etc/spacefm/spacefm.conf
+# This file affects all users of SpaceFM on this system.
+
+# Documentation: /usr/share/doc/spacefm/spacefm-manual-en.html#programfiles-etc
+# http://ignorantguru.github.io/spacefm/spacefm-manual-en.html#programfiles-etc
+
+# tmp_dir must be a root-protected user-writable dir like /tmp
+# ALL users must be able to write to this dir.
+# tmp_dir must NOT contain spaces or special chars - keep it simple
+tmp_dir=/tmp
+
+# Specify an absolute path to an additional terminal su or sudo program:
+terminal_su=/usr/bin/sudo
+
+# Specify an absolute path to an additional graphical su program:
+graphical_su=/usr/bin/pkexec
+
+[config]
+bm_open_method=0
+
+[volume]
+mount_on_startup=1
+mount_removable=1
+autorun=1
+
+[autorun]
+x-content/bootable-media=pcmanfm
+x-content/image-dcf=pcmanfm
+
+[MOD]
+dev_show_internal_drives-b=1
+dev_show_empty-b=1
+dev_show_partition_tables-b=1
+dev_show_net-b=1
+dev_show_file-b=1
+
+[ui]
+always_show_tabs=0
+max_tab_chars=32
+win_width=640
+win_height=480
+maximized=1
+splitter_pos=185
+media_in_new_tab=0
+desktop_folder_new_win=0
+change_tab_on_drop=1
+close_on_unmount=1
+focus_previous=0
+side_pane_mode=places
+view_mode=list
+show_hidden=1
+sort=name
+columns=name:500;size:100;type:100;perm:100;date:100
+toolbar=navigation:home
+show_statusbar=1
+pathbar_mode_buttons=1

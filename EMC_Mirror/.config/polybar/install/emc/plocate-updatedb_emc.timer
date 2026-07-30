@@ -1,0 +1,12 @@
+[Unit]
+Description=Update the plocate database daily
+
+[Timer]
+OnCalendar=daily
+OnBootSec=5min
+RandomizedDelaySec=1h
+AccuracySec=6h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

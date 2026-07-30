@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=i3_EMC
+Comment=improved dynamic tiling window manager
+Exec=$HOME/.config/polybar/launch.sh
+Type=Application
+DesktopNames=i3_EMC
+Keywords=tiling;wm;windowmanager;window;manager;
+Name[de_DE]=i3_EMC.desktop

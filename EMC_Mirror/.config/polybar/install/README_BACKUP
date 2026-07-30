@@ -1,0 +1,32 @@
+=======================================================================
+   EMC - BACKUP GUIDE
+=======================================================================
+
+Use the backup_emc.sh and restore_emc.sh script for backup and restore.
+
+Use remove_emc.sh to remove EMC and dependancies from your system.
+
+Call backup_emc.sh with the -i option to CREATE an INSTALL archive
+or with the -b option to CREATE a BACKUP archive
+
+The archives created by backup_emc will be stored in $HOME/EMC_Backup
+
+Backup archives are named like EMC_BACKUP_2026-03-01_12-38.tar.gz
+and contain the archives EMC_CONFIG.tar.gz and EMC_FONTS.tar.gz and
+can be restored whith the restore_emc.sh utility.
+
+Install archives are named EMC_INSTALL.tar.gz; creating a new install archive will overwrite an existing one.
+The content is stored in EMC_install archive directory.
+How to use the install archive lookup README_INSTALL
+
+To exclude directories or files from an install archive you can edit the
+polybar_EXCLUDE_DIRS and polybar_EXCLUDE_FILES arrays in backup_emc.sh:
+
+	polybar_EXCLUDE_DIRS=(x11 github install/setup)
+	polybar_EXCLUDE_FILES=(bak old sav)
+
+To RESTORE a backup archive call restore_emc.sh
+restore_emc.sh works only with an archive created by backup_emc.
+Other archives will not be processed.
+
+To REMOVE 
